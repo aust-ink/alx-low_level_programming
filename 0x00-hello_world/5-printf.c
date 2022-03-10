@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
  * main- outputs a string
- * Return 0; returned to exit program
- * printf- displays output
+ * Return:0 returned to exit the program
  */
 int main(void)
 {
