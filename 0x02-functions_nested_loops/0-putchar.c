@@ -6,13 +6,8 @@
  */
 int _putchar(void)
 {
-	Char *sh = "_putchar";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
+	return (_putchar);
+}
 	_putchar('\n');
 	return (0);
 }
