@@ -1,38 +1,20 @@
 #include "main.h"
 /**
-<<<<<<< HEAD
- * main - Entry block
- * Description prints _putchar on new line
+ * main - entry block
+ * @void: no argument
  * Return: 0
- */
+ **/
 int main(void)
 {
-	char c[8] = "_putchar";
+	char ermias[] = "_putchar";
 
-	int i = 0;
+	int c;
 
-	while (i < 9)
+	for (c = 0; c < 8; c++)
 	{
-		putchar(c[i]);
-		i++;
-	}
-	putchar('\n);
-=======
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	char *sh = "Holberton";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
+		_putchar(ermias[c]);
 	}
 	_putchar('\n');
-
->>>>>>> aa3a7862a4cd392da4c3e65e40315ef64780b7fa
 	return (0);
 }
+
